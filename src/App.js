@@ -6,7 +6,6 @@ function App() {
     const [users, setUsers] = useState([]);
     const [search, setSearch] = useState("");
     const [displayUsers, setDisplayUsers] = useState(false);
-    const [since, setSince] = useState(0);
     const [usersLoading, setUsersLoading] = useState(false);
     const [error, setError] = useState("");
 
